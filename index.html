@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Logo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Logo as Image -->
+        <div class="logo">
+            <img src="lo.png" alt="Logo">
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <!-- Updated href to link to the sections by id -->
+            <li><a href="#about-us">About Company</a></li>
+            <li><a href="#what-we-do">What We Do</a></li>
+            <li><a href="#team-section">About Team</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Creating Magic Beyond the Lens</h1>
+            <a href="#contact-us" class="btn-contact">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section id="what-we-do" class="what-we-do scroll-section">
+        <h2>What We Do</h2>
+        <div class="services">
+            <div class="service-box">Roto</div>
+            <div class="service-box">Paint and Cleanup</div>
+            <div class="service-box">Compositing</div>
+            <div class="service-box">Matchmove</div>
+            <div class="service-box">Keying</div>
+            <div class="service-box">Rig and Wires Cleanup</div>
+            <div class="service-box">De-aging and Beauty Fix</div>
+            <div class="service-box">Roto Animation</div>
+        </div>
+
+        <div class="services-container">
+            <!-- Paint -->
+            <div class="service-box">
+              <img src="paint.jpg" alt="Paint" class="profile-img" />
+              <h3>Paint</h3>
+              <p>
+                Experts in removing unwanted elements and enhancing shots to maintain seamless continuity in visual storytelling.
+              </p>
+            </div>
+          
+            <!-- Roto -->
+            <div class="service-box">
+              <img src="roto.jpg" alt="Roto" class="profile-img" />
+              <h3>Roto</h3>
+              <p>
+                Specialized in creating precise mattes for compositing and achieving a polished final output for VFX shots.
+              </p>
+            </div>
+          
+            <!-- Comp -->
+            <div class="service-box">
+              <img src="compositing.jpg" alt="Comp" class="profile-img" />
+              <h3>Comp</h3>
+              <p>
+                Seamlessly combining visual elements to create stunning and immersive final visuals for cinematic brilliance.
+              </p>
+            </div>
+          </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us scroll-section">
+        <div class="about-content">
+            <div class="about-gif">
+                <img src="g.gif" alt="About Us Animation">
+            </div>
+            <div class="about-text">
+                <h2>About Company</h2>
+                <p>
+                    At Frame Magic, we specialize in roto, paint, compositing, and matchmove, blending precision and creativity to craft visually stunning frames. Our team enhances details and seamlessly integrates elements, ensuring each project meets the highest quality standards. Passionate about cinematic magic, we transform every frame into a captivating masterpiece.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Team Section -->
+    <section id="team-section" class="team-section scroll-section">
+        <h1>IT’S DIFFERENT WORKING WITH US</h1>
+        <p>We are capable, reliable, and affordable creatives with our unique skills from top industry talent. We are a versatile and innovative company at the forefront of the digital media industry.</p>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="s.jpg" alt="Mohsin Jamadar">
+                <h3>Satyajeet Nikam</h3>
+                <h4>Founder</h4>
+                <p>With over 7+ years in the VFX industry, experienced in handling multiple projects and delivering exceptional visual effects with precision and creativity.</p>
+            </div>
+            <div class="team-member">
+                <img src="a.jpg" alt="Amit Sikarwar">
+                <h3>Salman Attar</h3>
+                <h4>Co-founder</h4>
+                <p>With 6+ years of experience in the VFX industry, skilled in working on various projects and delivering high-quality visual effects with attention to detail and innovation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="contact-us-section scroll-section">
+        <div class="contact-us-container">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out to us through the details below:</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h4>Phone</h4>
+                    <p><a href="tel:7219852819">7219852819</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p><a href="mailto:framemagic30@gmail.com">framemagic30@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright Section -->
+    <footer class="footer">
+        <p>&copy; 2025 Frame Magic. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
