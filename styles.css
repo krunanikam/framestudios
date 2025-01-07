@@ -145,7 +145,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .hero-section {
         background-size: 60%; /* Further reduce background size for smaller screens */
     }
