@@ -132,7 +132,7 @@ body {
 /* Responsive Hero Section */
 @media (max-width: 768px) {
     .hero-content h1 {
-        font-size: 3.7rem;
+        font-size: 3.8rem;
     }
 
     .btn-contact {
