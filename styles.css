@@ -139,6 +139,16 @@ body {
         padding: 0.6rem 1.2rem;
         font-size: 1rem;
     }
+
+    .hero-section {
+        background-size: 80%; /* Reduce background size */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        background-size: 60%; /* Further reduce background size for smaller screens */
+    }
 }
 
 /* What We Do Section */
